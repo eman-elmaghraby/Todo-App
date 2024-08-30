@@ -1,0 +1,7 @@
+
+### 4. Commit and Push the README File
+
+1. **Add README to Git:**
+
+   ```sh
+   git add README.md

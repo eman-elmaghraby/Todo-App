@@ -1,0 +1,46 @@
+/* The container holding the custom checkbox */
+.checkbox-container {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    font-size: 25px;
+    user-select: none;
+    width: 1.3em;
+    height: 1.3em;
+    background: black;
+    border-radius: 50px;
+    transition: all 0.7s;
+    --spread: 20px;
+  }
+  
+  /* The checkmark inside the checkbox container */
+  .checkbox-container .checkmark {
+    position: absolute;
+    top: 50%;
+    left: 36%;
+    right: 50%;
+    width: 0.25em;
+    height: 0.5em;
+    border: solid #f0f0f0;
+    border-width: 0 0.15em 0.15em 0;
+    transform: rotate(45deg) translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Toggling the checkbox state using CSS */
+  .checkbox-container.active {
+    background: black;
+    box-shadow: -10px -10px var(--spread) 0px #5B51D8, 
+                0 -10px var(--spread) 0px #833AB4, 
+                10px -10px var(--spread) 0px #E1306C, 
+                10px 0 var(--spread) 0px #FD1D1D, 
+                10px 10px var(--spread) 0px #F77737, 
+                0 10px var(--spread) 0px #FCAF45, 
+                -10px 10px var(--spread) 0px #FFDC80;
+  }
+  
+  .checkbox-container.active .checkmark {
+    opacity: 1;
+  }
+  

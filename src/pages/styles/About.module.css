@@ -1,0 +1,64 @@
+.aboutContainer {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+    background-color: #f4f4f4; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .content {
+    color: #555;
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+  
+  .intro {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .profileImage {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #1b1c1d;
+  }
+  
+  .details, .projects {
+    margin-bottom: 30px;
+  }
+  
+  .details h2, .projects h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .details ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  .details li {
+    margin-bottom: 10px;
+  }
+  
+  .projects p {
+    font-size: 1.1rem;
+  }
+  
